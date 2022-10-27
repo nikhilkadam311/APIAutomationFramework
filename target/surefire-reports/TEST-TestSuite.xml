@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="28.429" tests="31" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\workspace\APIAutomationFramework\APIAutomationFramework\target\test-classes;C:\workspace\APIAutomationFramework\APIAutomationFramework\target\classes;C:\Users\sonalpc\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\sonalpc\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\sonalpc\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\sonalpc\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\sonalpc\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\sonalpc\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\sonalpc\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\sonalpc\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\sonalpc\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sonalpc\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\sonalpc\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\sonalpc\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\sonalpc\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\sonalpc\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\sonalpc\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\sonalpc\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\sonalpc\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\sonalpc\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\sonalpc\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\sonalpc\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\sonalpc\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\sonalpc\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\sonalpc\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\sonalpc\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\sonalpc\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\sonalpc\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\sonalpc\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\sonalpc\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\sonalpc\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\sonalpc\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\sonalpc\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\sonalpc\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\sonalpc\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\sonalpc\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\sonalpc\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\sonalpc\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\sonalpc\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\sonalpc\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\sonalpc\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\sonalpc\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\AccelerationNew\JARFiles\eclipse-jee-2022-03-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\sonalpc\AppData\Local\Temp\surefire16816082106832782081\surefirebooter-20221015235440882_3.jar C:\Users\sonalpc\AppData\Local\Temp\surefire16816082106832782081 2022-10-15T23-54-38_214-jvmRun1 surefire-20221015235440882_1tmp surefire_0-20221015235440882_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\workspace\APIAutomationFramework\APIAutomationFramework\target\test-classes;C:\workspace\APIAutomationFramework\APIAutomationFramework\target\classes;C:\Users\sonalpc\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\sonalpc\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\sonalpc\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\sonalpc\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\sonalpc\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\sonalpc\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\sonalpc\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\sonalpc\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\sonalpc\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sonalpc\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\sonalpc\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\sonalpc\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\sonalpc\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\sonalpc\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\sonalpc\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\sonalpc\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\sonalpc\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\sonalpc\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\sonalpc\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\sonalpc\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\sonalpc\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\sonalpc\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\sonalpc\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\sonalpc\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\sonalpc\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\sonalpc\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\sonalpc\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\sonalpc\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\sonalpc\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\sonalpc\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\sonalpc\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\sonalpc\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\sonalpc\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\sonalpc\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\sonalpc\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\sonalpc\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\sonalpc\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\sonalpc\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\sonalpc\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\sonalpc\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sonalpc"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="C:\AccelerationNew\JARFiles\eclipse-jee-2022-03-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\workspace\APIAutomationFramework\APIAutomationFramework"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\sonalpc\AppData\Local\Temp\surefire16816082106832782081\surefirebooter-20221015235440882_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8"/>
+    <property name="user.name" value="sonalpc"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.2+8"/>
+    <property name="localRepository" value="C:\Users\sonalpc\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\sonalpc\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="C:\workspace\APIAutomationFramework\APIAutomationFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\AccelerationNew\JARFiles\eclipse-jee-2022-03-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/AccelerationNew/JARFiles/eclipse-jee-2022-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin/server;C:/AccelerationNew/JARFiles/eclipse-jee-2022-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Users\sonalpc\Downloads\Selenium\Maven\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_161\bin;;C:\AccelerationNew\JARFiles\eclipse-jee-2022-03-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.2+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="checkContentEncoding" classname="com.reqres.testCases.TC01_Get_User" time="0.067">
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+2022-10-15 23:54:52 INFO  ReqresAPITesting:17 - ------- Started TC01_Get_User -------
+2022-10-15 23:55:05 INFO  ReqresAPITesting:70 - ------- Check Content Encoding -------
+2022-10-15 23:55:05 INFO  ReqresAPITesting:72 - Server is : gzip
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentType" classname="com.reqres.testCases.TC01_Get_User" time="0.05">
+    <system-out><![CDATA[2022-10-15 23:55:05 INFO  ReqresAPITesting:55 - ------- Check Content Type-------
+2022-10-15 23:55:05 INFO  ReqresAPITesting:57 - content Type is : application/json; charset=utf-8
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseBody" classname="com.reqres.testCases.TC01_Get_User" time="0.426">
+    <system-out><![CDATA[2022-10-15 23:55:05 INFO  ReqresAPITesting:25 - ------- Check Response Body -------
+2022-10-15 23:55:06 INFO  ReqresAPITesting:27 - Response Body ==> {
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseTime" classname="com.reqres.testCases.TC01_Get_User" time="0.1">
+    <system-out><![CDATA[2022-10-15 23:55:06 INFO  ReqresAPITesting:39 - ------- Check Response Time -------
+2022-10-15 23:55:06 INFO  ReqresAPITesting:41 - Response time is ==> 2468
+]]></system-out>
+  </testcase>
+  <testcase name="checkServer" classname="com.reqres.testCases.TC01_Get_User" time="0.007">
+    <system-out><![CDATA[2022-10-15 23:55:06 INFO  ReqresAPITesting:63 - ------- Check Server -------
+2022-10-15 23:55:06 INFO  ReqresAPITesting:65 - Server is : cloudflare
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusCode" classname="com.reqres.testCases.TC01_Get_User" time="0.063">
+    <system-out><![CDATA[2022-10-15 23:55:06 INFO  ReqresAPITesting:32 - ------- Check Status Code -------
+2022-10-15 23:55:06 INFO  ReqresAPITesting:34 - Status Code ==> 200
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusLine" classname="com.reqres.testCases.TC01_Get_User" time="0.041">
+    <system-out><![CDATA[2022-10-15 23:55:06 INFO  ReqresAPITesting:48 - ------- Check Status Line -------
+2022-10-15 23:55:06 INFO  ReqresAPITesting:50 - status Line ==> HTTP/1.1 200 OK
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentEncoding" classname="com.reqres.testCases.TC02_Get_Single_User" time="0.03">
+    <system-out><![CDATA[2022-10-15 23:55:06 INFO  ReqresAPITesting:77 - ------- Finished TC01_Get_User -------
+2022-10-15 23:55:06 INFO  ReqresAPITesting:16 - ------- Started TC02_Get_Single_User -------
+2022-10-15 23:55:07 INFO  ReqresAPITesting:69 - ------- Check Content Encoding -------
+2022-10-15 23:55:07 INFO  ReqresAPITesting:71 - Server is : gzip
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentType" classname="com.reqres.testCases.TC02_Get_Single_User" time="0.042">
+    <system-out><![CDATA[2022-10-15 23:55:07 INFO  ReqresAPITesting:54 - ------- Check Content Type-------
+2022-10-15 23:55:07 INFO  ReqresAPITesting:56 - content Type is : application/json; charset=utf-8
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseBody" classname="com.reqres.testCases.TC02_Get_Single_User" time="0.105">
+    <system-out><![CDATA[2022-10-15 23:55:07 INFO  ReqresAPITesting:24 - ------- Check Response Body -------
+2022-10-15 23:55:07 INFO  ReqresAPITesting:26 - Response Body ==> {
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseTime" classname="com.reqres.testCases.TC02_Get_Single_User" time="0.026">
+    <system-out><![CDATA[2022-10-15 23:55:07 INFO  ReqresAPITesting:38 - ------- Check Response Time -------
+2022-10-15 23:55:07 INFO  ReqresAPITesting:40 - Response time is ==> 330
+]]></system-out>
+  </testcase>
+  <testcase name="checkServer" classname="com.reqres.testCases.TC02_Get_Single_User" time="0.035">
+    <system-out><![CDATA[2022-10-15 23:55:07 INFO  ReqresAPITesting:62 - ------- Check Server -------
+2022-10-15 23:55:07 INFO  ReqresAPITesting:64 - Server is : cloudflare
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusCode" classname="com.reqres.testCases.TC02_Get_Single_User" time="0.021">
+    <system-out><![CDATA[2022-10-15 23:55:07 INFO  ReqresAPITesting:31 - ------- Check Status Code -------
+2022-10-15 23:55:07 INFO  ReqresAPITesting:33 - Status Code ==> 200
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusLine" classname="com.reqres.testCases.TC02_Get_Single_User" time="0.078">
+    <system-out><![CDATA[2022-10-15 23:55:07 INFO  ReqresAPITesting:47 - ------- Check Status Line -------
+2022-10-15 23:55:07 INFO  ReqresAPITesting:49 - status Line ==> HTTP/1.1 200 OK
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentType" classname="com.reqres.testCases.TC03_Create_User" time="0.005">
+    <system-out><![CDATA[2022-10-15 23:55:07 INFO  ReqresAPITesting:76 - ------- Finished TC02_Get_Single_User -------
+2022-10-15 23:55:08 INFO  ReqresAPITesting:21 - ------- Started TC03_Create_User -------
+2022-10-15 23:55:09 INFO  ReqresAPITesting:69 - ------- Check Content Type -------
+2022-10-15 23:55:09 INFO  ReqresAPITesting:71 - content Type is : application/json; charset=utf-8
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseBody" classname="com.reqres.testCases.TC03_Create_User" time="0.042">
+    <system-out><![CDATA[2022-10-15 23:55:09 INFO  ReqresAPITesting:39 - ------- Check Response Body -------
+2022-10-15 23:55:09 INFO  ReqresAPITesting:41 - Response Body ==> {
+    "name": "abc",
+    "job": "xyz",
+    "id": "816",
+    "createdAt": "2022-10-15T18:25:20.461Z"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseTime" classname="com.reqres.testCases.TC03_Create_User" time="0.045">
+    <system-out><![CDATA[2022-10-15 23:55:09 INFO  ReqresAPITesting:53 - ------- Check Response Time -------
+2022-10-15 23:55:09 INFO  ReqresAPITesting:55 - Response time is ==> 866
+]]></system-out>
+  </testcase>
+  <testcase name="checkServer" classname="com.reqres.testCases.TC03_Create_User" time="0.093">
+    <system-out><![CDATA[2022-10-15 23:55:09 INFO  ReqresAPITesting:76 - ------- Check Server -------
+2022-10-15 23:55:09 INFO  ReqresAPITesting:78 - Server is : cloudflare
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusCode" classname="com.reqres.testCases.TC03_Create_User" time="0.118">
+    <system-out><![CDATA[2022-10-15 23:55:09 INFO  ReqresAPITesting:46 - ------- Check Status Code -------
+2022-10-15 23:55:09 INFO  ReqresAPITesting:48 - Status Code ==> 201
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusLine" classname="com.reqres.testCases.TC03_Create_User" time="0.017">
+    <system-out><![CDATA[2022-10-15 23:55:09 INFO  ReqresAPITesting:62 - ------- Check Status Line -------
+2022-10-15 23:55:09 INFO  ReqresAPITesting:64 - status Line ==> HTTP/1.1 201 Created
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentType" classname="com.reqres.testCases.TC04_Update_User_Record" time="0.006">
+    <system-out><![CDATA[2022-10-15 23:55:09 INFO  ReqresAPITesting:83 - ------- Finished TC03_Create_User -------
+2022-10-15 23:55:09 INFO  ReqresAPITesting:21 - ------- Started TC04_Update_User_Record -------
+2022-10-15 23:55:10 INFO  ReqresAPITesting:65 - ------- Check Content Type-------
+2022-10-15 23:55:10 INFO  ReqresAPITesting:67 - content Type is : application/json; charset=utf-8
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseBody" classname="com.reqres.testCases.TC04_Update_User_Record" time="0.153">
+    <system-out><![CDATA[2022-10-15 23:55:10 INFO  ReqresAPITesting:34 - ------- Check Response Body -------
+2022-10-15 23:55:10 INFO  ReqresAPITesting:36 - Response Body ==> {
+    "name": "smithIp",
+    "job": "JobavhQK",
+    "updatedAt": "2022-10-15T18:25:21.953Z"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseTime" classname="com.reqres.testCases.TC04_Update_User_Record" time="0.039">
+    <system-out><![CDATA[2022-10-15 23:55:10 INFO  ReqresAPITesting:49 - ------- Check Response Time -------
+2022-10-15 23:55:10 INFO  ReqresAPITesting:51 - Response time is ==> 815
+]]></system-out>
+  </testcase>
+  <testcase name="checkServer" classname="com.reqres.testCases.TC04_Update_User_Record" time="0.055">
+    <system-out><![CDATA[2022-10-15 23:55:10 INFO  ReqresAPITesting:73 - ------- Check Server -------
+2022-10-15 23:55:10 INFO  ReqresAPITesting:75 - Server is : cloudflare
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusCode" classname="com.reqres.testCases.TC04_Update_User_Record" time="0.009">
+    <system-out><![CDATA[2022-10-15 23:55:10 INFO  ReqresAPITesting:41 - ------- Check Status Code -------
+2022-10-15 23:55:10 INFO  ReqresAPITesting:43 - Status Code ==> 200
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusLine" classname="com.reqres.testCases.TC04_Update_User_Record" time="0.054">
+    <system-out><![CDATA[2022-10-15 23:55:11 INFO  ReqresAPITesting:58 - ------- Check Status Line -------
+2022-10-15 23:55:11 INFO  ReqresAPITesting:60 - status Line ==> HTTP/1.1 200 OK
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseBody" classname="com.reqres.testCases.TC05_Delete_User_Record" time="0.011">
+    <system-out><![CDATA[2022-10-15 23:55:11 INFO  ReqresAPITesting:80 - ------- Finished TC04_Update_User_Record -------
+2022-10-15 23:55:11 INFO  ReqresAPITesting:16 - ------- Started TC05_Delete_User_Record -------
+2022-10-15 23:55:11 INFO  ReqresAPITesting:24 - ------- Check Response Body -------
+2022-10-15 23:55:11 INFO  ReqresAPITesting:26 - Response Body ==> 
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseTime" classname="com.reqres.testCases.TC05_Delete_User_Record" time="0.05">
+    <system-out><![CDATA[2022-10-15 23:55:12 INFO  ReqresAPITesting:39 - ------- Check Response Time -------
+2022-10-15 23:55:12 INFO  ReqresAPITesting:41 - Response time is ==> 794
+]]></system-out>
+  </testcase>
+  <testcase name="checkServer" classname="com.reqres.testCases.TC05_Delete_User_Record" time="0.085">
+    <system-out><![CDATA[2022-10-15 23:55:12 INFO  ReqresAPITesting:55 - ------- Check Server -------
+2022-10-15 23:55:12 INFO  ReqresAPITesting:57 - Server is : cloudflare
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusCode" classname="com.reqres.testCases.TC05_Delete_User_Record" time="0.055">
+    <system-out><![CDATA[2022-10-15 23:55:12 INFO  ReqresAPITesting:31 - ------- Check Status Code -------
+2022-10-15 23:55:12 INFO  ReqresAPITesting:33 - Status Code ==> 204
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusLine" classname="com.reqres.testCases.TC05_Delete_User_Record" time="0.016">
+    <system-out><![CDATA[2022-10-15 23:55:12 INFO  ReqresAPITesting:48 - ------- Check Status Line -------
+2022-10-15 23:55:12 INFO  ReqresAPITesting:50 - status Line ==> HTTP/1.1 204 No Content
+]]></system-out>
+  </testcase>
+</testsuite>
